@@ -25,6 +25,7 @@ http://www.jstatsoft.org/v31/i10
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 II. To generate figures from raw data:
 
+Uncompress (tar xvfz) all 13 files to a new directory called 'Raw_Data_Unprocessed' making sure that each compressed folder extracts to its own directory e.g. 04dpf.tgz should extract to Raw_Data_Unprocessed/04dpf/ etc.
 Add ‘eLife_Ehrlich_Schoppik_2019’ to Matlab path with subfolders.
 In the Raw_Data_Unprocessed directory run:
 Generate_ES19_from_Raw_Master.m
